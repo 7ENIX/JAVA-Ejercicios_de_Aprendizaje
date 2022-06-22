@@ -58,7 +58,5 @@ public class Ejercicio_22 {
         } while (repetir.toLowerCase().equals("s"));
 
         sc.close();
-
-        //HOLA
     }
 }

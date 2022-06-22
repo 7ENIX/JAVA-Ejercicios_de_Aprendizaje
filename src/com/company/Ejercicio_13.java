@@ -37,7 +37,7 @@ public class Ejercicio_13 {
         if (nota >= 7 && nota <= 8.99) {
             System.out.println("Tu nota es: 'Notable'.");
         }
-        if (nota >= 9 && nota <= 10) {
+        if (nota >= 9) {
             System.out.println("Tu nota es: 'Sobresaliente'.");
         }
 
