@@ -21,5 +21,7 @@ public class Ejercicio_25 {
                 System.out.print("* " + " ");
             }
         }
+
+        sc.close();
     }
 }

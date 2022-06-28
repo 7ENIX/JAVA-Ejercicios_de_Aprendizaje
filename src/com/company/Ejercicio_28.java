@@ -23,8 +23,10 @@ public class Ejercicio_28 {
             }
             for (int k = 0; k < contador; k++) {
                 System.out.print("* ");
-                contador2--;
             }
+            contador2--;
         }
+
+        sc.close();
     }
 }

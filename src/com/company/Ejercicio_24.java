@@ -19,5 +19,7 @@ public class Ejercicio_24 {
                 System.out.print("* " + " ");
             }
         }
+
+        sc.close();
     }
 }
