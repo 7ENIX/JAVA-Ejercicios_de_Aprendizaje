@@ -35,5 +35,7 @@ public class Ejercicio_38 {
                 System.out.println("Sus cifras pares son: " + listaCifrasPares);
             }
         } while (numeroString.length() != 4);
+
+        sc.close();
     }
 }

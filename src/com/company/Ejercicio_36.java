@@ -39,5 +39,7 @@ public class Ejercicio_36 {
             numeroString = String.valueOf(sumaCifras);
         } while (numeroString.length() > 1);
         System.out.println("El número lo hemos reducido a 1 cifra. ¡Se terminó!");
+
+        sc.close();
     }
 }

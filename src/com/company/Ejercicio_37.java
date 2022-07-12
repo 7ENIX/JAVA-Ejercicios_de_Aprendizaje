@@ -40,6 +40,8 @@ public class Ejercicio_37 {
             contador--;
             System.out.println();
         }
+
+        sc.close();
     }
 }
 

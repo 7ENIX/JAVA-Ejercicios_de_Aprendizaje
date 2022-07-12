@@ -59,5 +59,7 @@ public class Ejercicio_33 {
         } else {
             System.out.println(listaNumeros);
         }
+
+        sc.close();
     }
 }

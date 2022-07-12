@@ -32,5 +32,7 @@ public class Ejercicio_32 {
         for (int m = 0; m < numero; m++) {
             System.out.print("* " + " ");
         }
+
+        sc.close();
     }
 }

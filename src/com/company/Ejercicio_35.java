@@ -25,5 +25,7 @@ public class Ejercicio_35 {
             }
 
         } while (numeroString.length() != 4); //Repetiremos el bucle si el número no tiene 4 cifras.
+
+        sc.close();
     }
 }

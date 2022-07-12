@@ -17,5 +17,7 @@ public class Ejercicio_34 {
             contador++;
         }
         System.out.println("El número " + numero + " contiene " + contador + " cifras.");
+
+        sc.close();
     }
 }

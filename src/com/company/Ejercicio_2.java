@@ -31,10 +31,7 @@ public class Ejercicio_2 {
         System.out.println(numero + " x 10 = " + numero * 10);
 
         // 2ª MANERA:
-        /*
-            Iniciamos "i" en "1" porque si ponemos "0" nos multiplicará el número por 0.
-
-         */
+        /* Iniciamos "i" en "1" porque si ponemos "0" nos multiplicará el número por 0. */
         System.out.println("Tabla de multiplicar del número " + numero + " :");
         for (int i = 1; i <= 10; i++) {
             System.out.println(numero + " x " + i + " = " + numero * i);

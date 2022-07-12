@@ -24,8 +24,8 @@ public class Ejercicio_8 {
         } else {
             System.out.println("El número es impar.");
         }
-        // Con '%' y 2 sabemos que si el número que introducimos lo dividimos entre 2 y el resto es 0, el número es par.
-
+        // Con '%' y 2 sabemos que si el número que introducimos lo dividimos entre 2 y
+        // el resto es 0, el número es par.
         sc.close();
     }
 }
