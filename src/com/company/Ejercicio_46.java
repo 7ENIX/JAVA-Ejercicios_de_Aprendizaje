@@ -32,5 +32,6 @@ public class Ejercicio_46 {
         } else {
             System.out.println("El número " + numero + " no es capicúa.");
         }
+        sc.close();
     }
 }

@@ -27,5 +27,6 @@ public class Ejercicio_47 {
         } else {
             System.out.println("La palabra " + palabra + " no es un palíndromo.");
         }
+        sc.close();
     }
 }
