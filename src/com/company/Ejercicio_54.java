@@ -25,12 +25,21 @@ public class Ejercicio_54 {
         }
         System.out.println("Los números son: " + Arrays.toString(tabla));
 
-        System.out.print("Ahora introduce un número y una posición:");
-        System.out.print("Número: ");
-        numero = sc.nextInt();
-        System.out.print("Posición: ");
-        posicion = sc.nextInt();
+        // Pedimos número y posición:
+        System.out.println("Ahora vas a introducir un número y una posición 2 veces");
+        for (int i = 0; i < 2; i++) {
+            System.out.print("Número " + (i+1) + ":");
+            numero = sc.nextInt();
+            System.out.print("Posición (0-9): ");
+            posicion = sc.nextInt();
+            for (int j = 9; j > posicion ; j--) {
+                tabla[j] = tabla[j-1]; // Igualamos el valor de la posición al valor de la posición anterior.
+            }
+            tabla[posicion] = numero;
+        }
 
+        // Imprimimos el Array final:
+        System.out.println(Arrays.toString(tabla));
     sc.close();
     }
 }
