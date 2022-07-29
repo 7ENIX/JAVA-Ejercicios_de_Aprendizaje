@@ -8,7 +8,6 @@ Ejemplo: 0-5: insuficiente, 5:suficiente, 6:bien, 7-8:notable, 9-10:sobresalient
 */
 
 public class Ejercicio_13 {
-
     public static void main(String[] args) {
 
         // VARIABLES:

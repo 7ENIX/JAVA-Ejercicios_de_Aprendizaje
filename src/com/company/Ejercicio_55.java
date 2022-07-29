@@ -5,7 +5,7 @@ import java.util.Scanner;
 /*
 Crear y mostrar un array bidimensional de 10 x 10.
 En cada posición se guardará (fila*columna).
- */
+*/
 public class Ejercicio_55 {
     public static void main(String[] args) {
 
@@ -16,8 +16,8 @@ public class Ejercicio_55 {
             System.out.println();
             for (int j = 0; j < array.length; j++) {
                 array[i][j] = (i*j);
+                System.out.print(" | " + array[i][j]);
             }
         }
-        System.out.println(Arrays.toString(array));
     }
 }
